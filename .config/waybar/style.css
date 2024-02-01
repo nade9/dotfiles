@@ -1,0 +1,131 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font";
+    font-weight: bold;
+    font-size: 16px;
+    min-height: 0;
+}
+
+#custom-power_profile,
+#custom-weather,
+#clock,
+#battery,
+#pulseaudio,
+#window,
+#network,
+#bluetooth,
+#temperature,
+#workspaces,
+#tray,
+#backlight,
+#language {
+    background: rgba(0.3, 0.3, 0.3, 0.6);
+    opacity: 0.8;
+    padding: 0px 10px;
+    margin: 3px 0px;
+    margin-top: 10px;
+}
+
+window#waybar {
+    background: none;
+    color: #ffffff;
+}
+
+tooltip {
+    background: rgba(0.3, 0.3, 0.3, 0.6);
+    border-radius: 10px;
+}
+
+#workspaces button {
+    color: #555555;
+    margin-right: 2px;
+}
+
+#workspaces button.active {
+    color: #ffffff;
+}
+
+#workspaces button.focused {
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+#workspaces button.urgent {
+    color: #11111b;
+    border-radius: 10px;
+}
+
+#workspaces button:hover {
+    color: #ffffff;
+    background: rgba(0.4, 0.4, 0.4, 0.5);
+    border-radius: 10px;
+}
+
+#temperature {
+    border-radius: 10px 0px 0px 10px;
+}
+
+#temperature.critical {
+    color: #eba0ac;
+}
+
+#backlight {
+    border-radius: 10px 0px 0px 10px;
+}
+
+#tray {
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#language {
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#workspaces {
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#window {
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#clock {
+    color: #ffffff;
+    border-radius: 10px;
+    margin-left: 10px;
+    border-right: 0px;
+}
+
+#network {
+    color: #ffffff;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#bluetooth {
+    color: #ffffff;
+    border-radius: 0px 10px 10px 0px;
+    margin-right: 10px
+} 
+
+#pulseaudio {
+    color: #ffffff;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px 10px 10px 0px;
+    margin-right: 10px;
+}
+
+#battery {
+    color: #ffffff;
+    border-radius: 10px;
+    margin-right: 10px;
+}
