@@ -1,0 +1,10 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "'Monaspace Neon', 'JetBrainsMono Nerd Font', 'monospace', monospace",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "window.menuBarVisibility": "toggle",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "Default Dark Modern",
+    "editor.fontLigatures": true,
+    "window.zoomLevel": 1
+}
