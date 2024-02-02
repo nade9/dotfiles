@@ -5,6 +5,7 @@
     font-weight: bold;
     font-size: 16px;
     min-height: 0;
+    outline: none;
 }
 
 #custom-power_profile,
@@ -21,7 +22,7 @@
 #backlight,
 #language {
     background: rgba(0.3, 0.3, 0.3, 0.6);
-    opacity: 0.8;
+    opacity: 0.75;
     padding: 0px 10px;
     margin: 3px 0px;
     margin-top: 10px;
@@ -39,7 +40,6 @@ tooltip {
 
 #workspaces button {
     color: #555555;
-    margin-right: 2px;
 }
 
 #workspaces button.active {
@@ -60,6 +60,7 @@ tooltip {
     color: #ffffff;
     background: rgba(0.4, 0.4, 0.4, 0.5);
     border-radius: 10px;
+    transition-property: background-color;
 }
 
 #temperature {
