@@ -1,6 +1,6 @@
 {
     "editor.minimap.enabled": false,
-    "editor.fontFamily": "'Monaspace Neon', 'JetBrainsMono Nerd Font', 'monospace', monospace",
+    "editor.fontFamily": "'Monaspace Neon', 'Font Awesome 6 Free', 'JetBrainsMono Nerd Font', 'monospace', monospace",
     "editor.unicodeHighlight.nonBasicASCII": false,
     "window.menuBarVisibility": "toggle",
     "security.workspace.trust.untrustedFiles": "open",

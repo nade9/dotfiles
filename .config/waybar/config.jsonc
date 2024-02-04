@@ -17,7 +17,7 @@
     },
 
     "clock": {
-        "format": "{: %H:%M %p   %a %d.%m.%Y}",
+        "format": "{: %H:%M  %a %d.%m.%Y}",
         "tooltip-format": "<tt><small>{calendar}</small></tt>"
     },
 
@@ -44,8 +44,8 @@
             "critical": 20
         },
         "format": "{icon} {capacity}%",
-        "format-charging": "  {capacity}%",
-        "format-plugged": "  {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
         "format-alt": "{icon} {time}",
         "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
     },
@@ -79,7 +79,7 @@
 
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "  {signalStrength}%",
+        "format-wifi": " {signalStrength}%",
         "format-ethernet": "{ipaddr}/{cidr}",
         "tooltip-format": "{essid} - {ifname} via {gwaddr}",
         "format-linked": "{ifname} (No IP)",

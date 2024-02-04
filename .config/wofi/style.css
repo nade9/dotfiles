@@ -9,7 +9,7 @@
     border: 2px solid;
     border-color: #33ccff;
     border-radius: 25px;
-    background-color: rgba(0.3, 0.3, 0.3, 0.6);
+    background-color: #00000099;
     color:  #ffffff;
 }
 
@@ -28,7 +28,7 @@
 }
 
 #entry:selected {
-    background-color: rgba(0.4, 0.4, 0.4, 0.5);
+    background-color: #00000080;
     border-radius: 25px;
     border: none;
     outline: none;
